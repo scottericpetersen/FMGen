@@ -839,7 +839,7 @@ __________________________________________________
 
 This document was originally based on James McCartney's 1000 FM Synths.scd document that is part of the examples folder in the SC3 distribution. My original intent was to allow my students to learn from the examples generated. If they heard something they loved they could look at the SynthDef code to discover the CM ratios and index of modulation for all configurations. This required completely rewriting the code to eliminate loops and functions and essentially have a flat top-to-bottom code generation that could be written as strings and stored to be evaluated later using .interpret.
 
-Along the way I added control features to better be able to specify FM configurations, envelope options, output options (using Select), etc. Very little of the original code survives or is recognizable except the reverb synthdef and the code to randomly listen to the instruments generated. That is my omage to the original.
+Along the way I added control features to better be able to specify FM configurations, envelope options, output options (using Select), etc. Very little of the original code survives or is recognizable except the reverb synthdef and the code to randomly listen to the instruments generated. That is my homage to the original.
 
 Along with the code used to generate FM synths I have included a small "library" of sounds I felt were recognizable and compelling. I copied and pasted these in from various versions of the code and they are accompanied with leading questions designed to get the student to 1) listen observationally to the sound, and 2) to dissect, add and subtract from the code in order to accomplish some musical goal -- to make the sound "better" or more true to a certain archetype.
 
